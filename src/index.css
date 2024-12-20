@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-poppins bg-neutral-950 text-white;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 px-4 md:py-24;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-md
+    hover:bg-blue-700 transition-colors duration-300
+    font-semibold tracking-wide;
+  }
+}
