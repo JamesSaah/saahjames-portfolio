@@ -30,7 +30,7 @@ const About = () => {
 
           <div className="aspect-square rounded-xl overflow-hidden">
               <img 
-                src="/src/assets/images/james_profile14.jpg" 
+                src="/images/james_profile14.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
               />

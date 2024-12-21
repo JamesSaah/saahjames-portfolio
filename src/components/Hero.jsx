@@ -10,7 +10,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className='grid grid-cols-2 gap-10'>
-          <img src="/src/assets/images/james_profile12.jpg" alt="james" className='w-full h-full object-cover aspect-square rounded-xl overflow-hidden'/>
+          <img src="/images/james_profile12.jpg" alt="james" className='w-full h-full object-cover aspect-square rounded-xl overflow-hidden'/>
 
           <div>
           <h1 className="text-2xl md:text-8xl font-bold mb-6">

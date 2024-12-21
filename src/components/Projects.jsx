@@ -5,21 +5,21 @@ const Projects = () => {
     {
       title: "E-Commerce Platform",
       description: "A full-stack e-commerce solution with React and Node.js",
-      image: "/src/assets/images/james_project3.png",
+      image: "/images/james_project3.png",
       tech: ["React", "Node.js", "MongoDB"],
       link: "#"
     },
     {
       title: "Portfolio Website",
       description: "Modern portfolio website with animations",
-      image: "/src/assets/images/james_profile13.jpg",
+      image: "/images/james_profile13.jpg",
       tech: ["React", "Tailwind CSS", "Framer Motion"],
       link: "#"
     },
     {
       title: "Task Management App",
       description: "Collaborative task management platform",
-      image: "/src/assets/images/james_profile10.png",
+      image: "/images/james_profile10.png",
       tech: ["React", "Firebase", "Material-UI"],
       link: "#"
     },
