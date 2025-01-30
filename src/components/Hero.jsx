@@ -2,22 +2,24 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex mt-10 items-center justify-center px-4">
+    <section id="home" className="min-h-screen flex mt-16 section-padding">
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+         
         >
           <div className='grid grid-cols-2 gap-10'>
+        <div className='aspect-square rounded-xl overflow-hidden'>
           <img 
             src="/images/james_project4.jpeg" 
             alt="james" 
-            className='w-full h-full object-contain aspect-square rounded-xl overflow-hidden shadow-lg'
+            className='w-full h-full object-fill shadow-lg'
             loading="eager"
             style={{ imageRendering: 'crisp-edges' }}
           />
-
+        </div>
           <div>
           <h1 className="text-2xl md:text-8xl font-bold mb-6">
             James Saah Kollie

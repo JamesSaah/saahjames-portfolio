@@ -30,9 +30,9 @@ const About = () => {
 
           <div className="aspect-square rounded-xl overflow-hidden">
               <img 
-                src="/images/james_profile14.jpg" 
+                src="/images/j.jpeg" 
                 alt="Profile" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+                className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300"
               />
         </div>
         </motion.div>
